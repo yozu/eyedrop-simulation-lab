@@ -1,0 +1,350 @@
+[
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_learned_retreat_comparison_20261101.py",
+    "sha256": "5331ace90ede002569744d6ab0c901f43e33e481d9ec98133b0ed373e18789c0"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_context_eval_20261101.py",
+    "sha256": "6b15ac2ec7d071319404adbaee447b9483d2e1c03c44c849c4b2bbbe5911c4a8"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_diverse_coverage_20261101.py",
+    "sha256": "8eb1f86f5b6b4866f9755b6da7e38808a1621b9909f40e77f53e9b157dff3b68"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_diverse_development_20261101.py",
+    "sha256": "78393c13a60d364fcd46d44cf8a9be8bf8be6abebed296c79757524948772af0"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_diverse_diagnostic_20261101.py",
+    "sha256": "94c074a957f29eae83ce22c339f49ea3150b873495a2a30057f2350691e0abbe"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_diverse_home_partition_20261101.py",
+    "sha256": "e9fa3c059946fd92d9e3ac72b94602ceded3de5fd0cfb88188ed689384224274"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/audit_retreat_ed_eval_20261101.py",
+    "sha256": "50f4672721542beaf1195d634330a24922289c24a7128f26b1edb52d8377a23c"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/blink_head_mix_runtime.py",
+    "sha256": "2e9888f4038fbe65dcb91467ffa0186a9d9d2e5acc49689fe6cb5761c71db829"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/collect_retreat_diverse_home_20261101.py",
+    "sha256": "bbbb32d913b3a072220e5f5e3fb61823e4e4f209fd5cb2f5763102aae9c1de4e"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/dual_host_stabilize.py",
+    "sha256": "3c0b2c3f84c6cbc4c826664362cf4cc2da7a50731e7016d5c7ee19f820e4f303"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_learned_retreat_20261101.py",
+    "sha256": "2c2e8e2f03066b5d574604f82c6a81b341a2536268492216d52af6ba96713118"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_learned_retreat_impl_20261101.py",
+    "sha256": "5700442d1275211aed619ecee2845fdd7248629310a22294aeab0bd4a6bf239b"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_retreat_diverse_diagnostic_20261101.py",
+    "sha256": "233e320c54a7ac119e44885b97703cba27648503f63cdd714865af610bb7a04d"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_retreat_diverse_impl_20261101.py",
+    "sha256": "d534ea059cf0069c6be1314ae612fff3f2897a7a19e580efe0a4ec22b7203664"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_retreat_ed_20261101.py",
+    "sha256": "f0d09d447ddd25d992a0562d38856cee6348d606b45984e2ca87ba051cb5eebe"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/evaluate_retreat_ed_impl_20261101.py",
+    "sha256": "c71001eb26bdf76ed672c39b1ee7d656becdaabc832edc080903f66479d49ead"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/eye_crop_override.py",
+    "sha256": "4941d206f5789362f67707f6c3897399465b63965de5209b83df5796b945fcdd"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/hybrid_action.py",
+    "sha256": "03a4fe1bf02d5121eb30dc1d03363716b1b685d0abb4743028c4870046e182db"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/inspect_autonomous_job.py",
+    "sha256": "9295814cf312754c2dbe9c4001fe368d27e621ebe2047d0ba5174d80333226f9"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/install_blink_head_mix.py",
+    "sha256": "4426dd4cfdfda854f509cd8e4961e9f4f2f3e5194b635175138501ddbf0e3d9a"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/install_tree_eye_override_20261101.py",
+    "sha256": "e29262191e7a769875ef11361850869e985240279e14d27a99472d64664ffbec"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/joint_only_loss.py",
+    "sha256": "9aa68dc9aa1bf384606d03df85294ae74348c59b6af23fe6c0a07b1eae3e67e7"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/late_fine_source.py",
+    "sha256": "4203bbbb6c6776414a26fb9fca72fd1399a4a0d9b8b61ac01ffe6d0b5f6080f1"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/learned_retreat_action_20261101.py",
+    "sha256": "b1052d0bd6ef47d32ab547f4e49145fee3edb477a5a75f47f64e577089c165ea"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/live_face_feature_contract_20261101.py",
+    "sha256": "e68f86887d3d57e6af85678ab22088dfd64af2856b081313fe4bf9e07e34a110"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/live_tree_eye_runtime_20261101.py",
+    "sha256": "a307b60d0fdf6950d2fd5ba7425f23a584d25860bdb09ba994bc2ef1ea029f59"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_coarse_context_20261101.py",
+    "sha256": "3bf685a39d4b0a613fbfaa77900d23b877590f4c31abbb20908346baccab316d"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_context_features_20261101.py",
+    "sha256": "e52f99404f98675d6f980420816c5bfcee794ab74b998f7761153e90205f7b00"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_current_schedule_20261101.py",
+    "sha256": "6d356b80d28451bef9547312ec7d752e6235534aa1965443333b202597f171b0"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_coverage_20261101.py",
+    "sha256": "25602d930431312e26a0037e117ab63b29aa8739ab6746dd9e1e14d2f4b20a02"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_dataset_collect_20261101.py",
+    "sha256": "512288171012c03500904e960bd36ba75a6b619017a83395398148ae8cc6decb"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_partition_20261101.py",
+    "sha256": "2556c989ea7d0ca34c7ac95a86253be27f2fd446192925675a39f7e30fdb61a3"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_protocol_20261101.py",
+    "sha256": "3597b57fc212099cac6ca840f70984a50238cfaa110958185b2113d58909df82"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_record_20261101.py",
+    "sha256": "61bd6d738dd41f6c61a6994deee4347193e08feb3255f0b1b4791447b18d4579"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_split_20261101.py",
+    "sha256": "bce5aabc6b2cceee97dd96837aa2f395d2176dc9d8312dc11cceedc8af682d97"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_runtime_20261101.py",
+    "sha256": "2fde490dabcba02c3098bf4968a6f971eaeb31d00eda2b46c1bd1a31cefdb860"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_schedule_20261101.py",
+    "sha256": "fab850ebb3ebba62850c33017004418b519e4861e798c3f125f16e58b91d64c5"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_selection_20261101.py",
+    "sha256": "7ce77228475e350ac78db498827de130263754cf5e34ed8e8fb2aceae0176b36"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_ed_collect_20261101.py",
+    "sha256": "49f9aeb795e004e07476c06b4b615ed3b9aaf1770ad401249ed353b09107330b"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_home_gate_20261101.py",
+    "sha256": "162b6e61f03c9d9255c02a78c3acaaee1cc1ff56484daaad815c4556cb2b3add"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_orientation_action_20261101.py",
+    "sha256": "32274d2fce1bcc7194da0f184cd251e8c4b8b2d39e0211cbc8c189c9e157df30"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_path_context_20261101.py",
+    "sha256": "486e73ddec1a3ddb239ab32a450017754269004d4b17549fc01a78f0a1028ac5"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_precise_binding_20261101.py",
+    "sha256": "daadfc6ec353b3fb34ebef0f20ce01e0185d7d66de665e7ea59bf9bbfad1da72"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_replay_schedule_20261101.py",
+    "sha256": "e04280e37acb49bb8d73281740969b3dc818b004abf7bf038478944bc5b3abf5"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/retreat_single_fit_probe_20261101.py",
+    "sha256": "7937aea25dd5f493a2731d431483ee6b66cbd1193fe63ceb3c773d04a4cc56c0"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/run_learned_retreat_comparison_20261101.py",
+    "sha256": "e14d53d4b28ad39c78951c79a2a77d346cb697729e92d075e3ee2d79f0b3e3de"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/run_retreat_diverse_diagnostic_20261101.py",
+    "sha256": "6bc9f5563e0cf65489a1d5b1ef77ec0e6a48f2b97d60e5d69651fb3ee81a5bde"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/run_retreat_ed_eval_20261101.py",
+    "sha256": "e4c5553dde47d00e2debe118edc9334d9459397bd41aa54d141eec8951b0d53c"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/run_retreat_replay_20261101.py",
+    "sha256": "53c319754b9b88d8a3191c98011fcd25f7f6f9a198bc8a089907894c347e27a1"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/test_retreat_diverse_impl_20261101.py",
+    "sha256": "662df91f7c138430ec6b1b4bd3b62f4c464f36fe6870c8176a2aa50a3522d00e"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/train_retreat_current_20261101.py",
+    "sha256": "d6b6a12cfc5a399b429dec771441b9861d0445b0bece52817bad9acd5e6c2c71"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/train_retreat_diverse_20261101.py",
+    "sha256": "2b602e42193e3ee265c437d65bb32b47f3b322fdecf820afcf8be5a98851050e"
+  },
+  {
+    "relative": "evidence/development/curriculum-redesign-20261030-01/train_retreat_replay_20261101.py",
+    "sha256": "caa65b73f04a95083abbb621b9197b55359119095cf1f1a80c8e7b4f4b7d33f9"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/action_encoding.py",
+    "sha256": "421ef4c0280fd5c35bfd23308e159bcc623726f34b2ddd94accf7f2622071805"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/cartesian_action.py",
+    "sha256": "5842985318f1e93fb16c4fbf1dc2a5c7ef175798ca1f1a13c9bbe9311568ee7c"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/check_smolvla_g0a.py",
+    "sha256": "eeddae4b6a6870a959b969fc032a836038d5bb65ee524d238cd3adf320fb9f1a"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/direct_gripper.py",
+    "sha256": "522a426abc2092eb20ae22115672246e61c77a8d50d98cea63c31e6f2670aa9d"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/endpoint_policy.py",
+    "sha256": "667de2d18969c86614396f640339821520f6db323ff1be77248f895f259bd359"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/evaluate_panda_policies.py",
+    "sha256": "5db418f40e6d9c6346a0147852d2dca98847f0683e549171a791e10c33ef9476"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/guarded_rgb_observer.py",
+    "sha256": "78506979141a36057db85d36e7d748cb717c397423ea1c452233c0bd1e37f0c8"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/image_motion_validity.py",
+    "sha256": "a57933fc31bd103c49e4baedbbcfee297ab5bb09083ea0319f9f447ea7216173"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/joint_action_basis.py",
+    "sha256": "cb6ea9423af75220e85cd56644e093690d201b992cbbd89851d3abb8b468a7a2"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/learned_rollout_fluid.py",
+    "sha256": "bb0ffec2d683651a5986e7dbf4b03d053b967f9aa706a1bf29976bd021bda8c0"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/panda_policy_worker.py",
+    "sha256": "8daaa0480613d77fdbb1b10cc93bfbc16040cc3fd2737be2b65d1f5fb9f95218"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/panda_rpc.py",
+    "sha256": "82ee3be4340dced2aeb4c2fb43ed3d1fdc13b04dd65562093ef8aa9657879b0d"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/pressure_interval_audit.py",
+    "sha256": "f527cea564825778d2ba51fce48e3bf07e8d75d22c8b23673e89b0cace925a13"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/relative_joint_action.py",
+    "sha256": "59f5851db3cb9106a0ef5b85f27e91c966a3a502f0fae3612777316f562a60f3"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/resumable_job.py",
+    "sha256": "e923d4859dfcf7a11bb908de0e90bb3bc4f323d29e3b7cc9ab422e3e374a2abd"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/smolvla_runtime.py",
+    "sha256": "02d6d1fefc3e5bd200da70db94e95a1638843e47961c3d159669f0141a0203b2"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/smolvla_training.py",
+    "sha256": "58102d7ec2ee3b410e0dc00fe9f7093656d7fc17a304463662da0abc10843686"
+  },
+  {
+    "relative": "eyedrop_sim/scripts/tree_gripper.py",
+    "sha256": "919acbe81a935a89571c34fcf19cf4d80374e58f2c6c198acad01e34d73f9047"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/camera_position.py",
+    "sha256": "a8669fe8e2506eced82d5c14163dc9808ee79d6157212e6ecbb921a13fa7f060"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/drop_kinematics.py",
+    "sha256": "0666daa4bdcdf107387ac2d166f7197419caa47a84277d951ab4660154eb02eb"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/eye_image_change.py",
+    "sha256": "1c6ff5db9b8daba678e1970c79c7cbe23a3dd8345e173846c9435e010a26eb7d"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/eye_ready_head.py",
+    "sha256": "46c33d22de086135bfe8d6c8f841090c75d38482d34b6810307dddebd386c126"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/face_eye_patches.py",
+    "sha256": "f70410c28a548a53ccea57662dd94ae177a932fb6960da645026b954490d200d"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/face_features.py",
+    "sha256": "b5b6907a4b8380aeb92bc70013acf516d4452a15d7e70baaa6e5cab223dad628"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/guarded_action_contract.py",
+    "sha256": "7e073834195a0657fd17d1ee25686c6d42c9e2bb2125614eeb785b2b882cda60"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/guarded_execution.py",
+    "sha256": "1bade45338f7bb7a980bd798c4bb9f360080ddbda5b0f756176f0a8d36aef418"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/model_integrity.py",
+    "sha256": "4eab249dc77a6e5aeb814717874e1bb23578766cc3cba86cf2dabde7eb7c3362"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/panda_fixed_control.py",
+    "sha256": "51927312a4ad71aeeef6d55a758794431339359605c344e669ed8d1455b1fc9e"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/panda_rgb.py",
+    "sha256": "6db74b68ce07707ad93cb841dfedc26429b149a3304297dd884eaa595e334d12"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/panda_world.py",
+    "sha256": "1bf065e3d8156efcd6fa4a7a5bd5aeae67fc896b8f231de3f8d6984a5674acb9"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/smolvla_dataset_contract.py",
+    "sha256": "750737b31b73c0af8b7fcfec1697dd57d3a799e892febc588fffc835900e6305"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/smolvla_observation.py",
+    "sha256": "bff32e6a9c8ac0289bb0a3bbfce4c42ee3bee7fd7cb293b9b998037aff113722"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/smolvla_temporal.py",
+    "sha256": "de4c4183a2dfb088612a45825813b91bdc3d800ffa3f358e1cc607e8f1bd666a"
+  },
+  {
+    "relative": "eyedrop_sim/src/eyedrop/stereo_geometry.py",
+    "sha256": "6a0ffc5d4e19b7f15c67b5ddbb81937f15d757c5ba569f5fd482ac217f943f32"
+  }
+]

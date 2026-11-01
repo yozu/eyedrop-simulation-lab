@@ -1,0 +1,14 @@
+[
+  {
+    "file": "evidence/development/curriculum-redesign-20261030-01/retreat_diverse_home_dataset_collect_20261101.py",
+    "original_sha256": "512288171012c03500904e960bd36ba75a6b619017a83395398148ae8cc6decb",
+    "published_candidate_sha256": "f8b7a76dcb3f36b579502591a68971388f35aeacdb2a380070fe45756c75aa02",
+    "change": "SSH host and remote root supplied as environment variables"
+  },
+  {
+    "file": "evidence/development/curriculum-redesign-20261030-01/retreat_ed_collect_20261101.py",
+    "original_sha256": "49f9aeb795e004e07476c06b4b615ed3b9aaf1770ad401249ed353b09107330b",
+    "published_candidate_sha256": "31e8ae26a5844f19f1463a70fd7fbf239d43f5bbe627dba1bf7c63153b5fa65e",
+    "change": "SSH host and remote root supplied as environment variables"
+  }
+]
