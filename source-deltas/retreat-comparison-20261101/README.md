@@ -1,10 +1,10 @@
-# Code review candidate
+# Training and evaluation source snapshot
 
-This directory is a local review candidate containing the source files reached by a static import scan from the latest training and evaluation scripts. It is not a complete or tested release.
+This directory contains source files reached by a static import scan from the later training and evaluation scripts. It is provided for inspection; a complete end-to-end reproduction has not been verified.
 
 Dynamic imports, execution-time scripts, datasets, model checkpoints, dependencies and assets may be missing. Some existing public files may differ despite sharing a name. Paths in the source reflect the development layout and are not a turnkey installation.
 
-Review licenses, personal information, public history, completeness and runtime behavior before merging these files into the existing public repository. Keep the original project and previous publication intact.
+See [SOURCE_PROVENANCE.md](../../SOURCE_PROVENANCE.md) for the origin and verification status of the files and [CREDITS.md](../../CREDITS.md) for asset credits.
 
 The remote-transfer helper and dataset collector were adapted to require `EYEDROP_SSH_HOST` and `EYEDROP_REMOTE_ROOT` instead of the original machine-specific settings. The remote root must include its trailing slash. These changes affect source hashes; the original collection and evaluation have not been rerun with the adapted helpers.
 
