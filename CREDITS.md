@@ -4,5 +4,6 @@
 - Seed-san：© VirtualCast Inc.。[配布元](https://github.com/vrm-c/vrm-specification/tree/master/samples/Seed-san)、[VRM Public License 1.0](https://vrm.dev/en/licenses/1.0/)。
 - Godette：© SirRichard94、VRM化 © 2021 Lyuma。[原作](https://github.com/SirRichard94/low-poly-godette)、[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)。同梱のライセンス文を参照。
 - ワークチェア：Innerscene、VECTOR Ergonomic Office Chair。[配布元](https://www.innerscene.com/tools/library/3d-parts/vector-ergonomic-office-chair-ae299d68)、CC0。表示時に大きさと姿勢を調整している。
+- 後続の開発試行で使用した「ビビ」「千駄ヶ谷渋」：VRoid Projectの旧βサンプル再配布版。[使用した配布元](https://opengameart.org/content/vroid-studio-cc0-models)、[公式サンプル条件](https://vroid.pixiv.help/hc/en-us/articles/4402614652569)。元ファイルの埋め込み条件と配布元の説明は別に確認する。このリポジトリにモデル本体は含まれない。
 
 モデルの表情と姿勢はシミュレータ上で変更している。これらの素材をプロジェクトのコードと同じライセンスへ変更するものではない。

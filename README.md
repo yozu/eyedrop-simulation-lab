@@ -14,14 +14,14 @@ The robot receives images from two cameras, the state of its arm and fingers, an
 
 - **Simulation**: PyBullet and Three.js
 - **Robot learning**: [LeRobot](https://github.com/huggingface/lerobot) and the pretrained [SmolVLA](https://huggingface.co/lerobot/smolvla_base) model
-- **Training data**: 12 successful fixed-procedure demonstrations, split into 6 for training and 6 for testing
+- **Initial training data**: 12 successful fixed-procedure demonstrations, split into 6 for training and 6 for testing; later development used additional recovery demonstrations
 - **Task**: approach the eye, wait until it is open, press the bottle to release one drop, open the fingers, and retreat
 
 The bottle is fixed to the arm; pressing and drop release are represented by simplified models.
 
 ## Results
 
-We compared the fixed procedure with the AI model before and after the latest fine-tuning, using two character models that had previously been used during development. Each method was tested once per character.
+In an initial comparison, we tested the fixed procedure and the AI model before and after one fine-tuning run, using two character models that had previously been used during development. Each method was tested once per character.
 
 | Method | Character model A | Character model B |
 | --- | --- | --- |
@@ -30,6 +30,10 @@ We compared the fixed procedure with the AI model before and after the latest fi
 | AI: after latest fine-tuning | Stopped at 0.25 seconds after an out-of-range finger-width command | Pressing was not sustained during the 60-second simulation; no drop was released |
 
 The pre-fine-tuning comparison used weights that had already been updated 600 times from the public pretrained model. The post-fine-tuning weights received another 3,000 updates using the demonstrations in this experiment. These are single trials for each condition; they do not establish a general success rate or performance on previously unseen characters.
+
+In a later hybrid configuration, the learned model handled the final approach and position holding, while fixed control handled pressing, release and retreat. Under natural blinking, one trial on each of two development characters applied one drop to the open target eye, released the bottle and returned without recorded contact. The exploratory 2.5 mm threshold controlled when pressing could begin; it was not the scoring criterion for whether the drop reached the eye, and the earlier 1 mm criterion was not demonstrated by this test.
+
+When retreat was also delegated to an additional learned candidate, each character received one drop in one diagnostic trial, but finger release and return to the starting position remained incomplete. The candidate failed its prior retention criterion and was not adopted. Sudden eyelid closure and residual pressure remain unresolved. These development trials do not establish performance on unseen characters or safety outside the simulation.
 
 ## Repository contents
 
@@ -42,7 +46,7 @@ The pre-fine-tuning comparison used weights that had already been updated 600 ti
 | [CREDITS.md](CREDITS.md) | Asset sources and usage terms, in Japanese |
 | [SOURCE_PROVENANCE.md](SOURCE_PROVENANCE.md) | Provenance and verification status of the archived and supplemented code, in Japanese |
 
-Character model A is pixiv's VRM1_Constraint_Twist_Sample, model B is Seed-san, and the third model used for training is Godette. The identifier `original` in the source and records refers to model A.
+For the initial comparison, character model A is pixiv's VRM1_Constraint_Twist_Sample, model B is Seed-san, and the third model used for training is Godette. The later development trials used two VRoid Project sample characters; see [CREDITS.md](CREDITS.md).
 
 ## Environment and checks
 
@@ -60,8 +64,25 @@ node --test anatomy-contact.test.mjs anatomy-score.test.mjs learning-conditions.
 
 These checks cover 13 unit tests; they do not establish that the complete eye-drop task can be reproduced or run in another environment.
 
+The following 10 synthetic-data unit tests cover sequence analysis and pressure-audit contracts. On macOS, with `pytest` and `numpy` installed, run them from the repository root:
+
+```sh
+PYTHONPATH="scripts:outputs/runtime/review-sklearn-v1/src" \
+  python -m pytest -q -c /dev/null -p no:cacheprovider \
+  tests/test_sequence_result_analysis.py \
+  tests/test_relative_sequence_cycle.py \
+  tests/test_pressure_audit_contract.py
+```
+
+The explicit source path matters: another saved `eyedrop.bottle` version lacks `step_measured` and caused one pressure-audit test to fail. The command above passed all 10 tests on macOS with Python 3.12.15, NumPy 2.2.6 and pytest 9.1.1, using the files supplied here. It does not run training or establish end-to-end reproducibility; the test covering `fcntl` requires a POSIX environment.
+
 ## Future work
 
 The AI must learn to maintain a stable finger width and complete the sequence from waiting for an open eye through pressing, releasing, and retreating. Performance with other characters, actual bottles and liquids, and real-time operation has not been evaluated.
 
 For asset sources and usage terms, see [CREDITS.md](CREDITS.md) (in Japanese).
+
+
+## Additional experiment source
+
+The related training and evaluation source is in [`source-deltas/retreat-comparison-20261101`](source-deltas/retreat-comparison-20261101/README.md). This is an inspection snapshot; datasets, checkpoints and a verified end-to-end reproduction are not included.
